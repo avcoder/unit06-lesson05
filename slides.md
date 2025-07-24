@@ -156,6 +156,7 @@ transition: slide-left
 
 # Other Tips
 
+- Hooks allow us to re-use logic similar to how we can re-use components
 - useState - can initialize useState with an array or an object (`useState(['#fff', '#ddd'])`)
    - when might you want to use an object instead of primitive values?
 - reminder: whenever you change state, you need to provide a brand new array/object, modify that new array, then set that new array into state.  That's because React uses reference equality (memory address) to check if something changed.
@@ -166,6 +167,7 @@ transition: slide-left
 ---
 
 # Custom Hooks
+Hooks allow us to re-use logic similar to how we can re-use components
 
 - Create a custom hook called `/hooks/useToggle.js` and replace it in our `isFollowing` button
   ```ts
