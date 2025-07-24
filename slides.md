@@ -38,16 +38,8 @@ transition: slide-left
 ---
 
 # Recap
-- 
+- Q: Why did I use PrimeReact's `severity` prop in last class? (since I can make it work using different prop names, or values)
 
----
-transition: slide-left
----
-
-# S
-
-- H
-   
 ---
 transition: slide-left
 ---
