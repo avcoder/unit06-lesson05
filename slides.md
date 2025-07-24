@@ -16,7 +16,7 @@ transition: slide-left
 mdc: true
 ---
 
-# React: CSS Styling and Component Frameworks 
+# React: Event Handling, Forms, Custom Hooks
 Frontend Development: Unit 06 - Lesson 05
 
 - [ ] Event Handling in React
