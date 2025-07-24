@@ -100,7 +100,7 @@ Feel free to create more components inside `<Forecast>` as you see fit.  FYI - i
   return (
       <div>
         <header>
-          <Nav city={this.state.currentCity} onCityChange={this.changeCity} />
+          <Nav city={this.state.currentCity} handleCityChange={this.changeCity} />
         </header>
         <main>
           <TodayWeather
