@@ -77,9 +77,28 @@ class: text-left
 transition: slide-left
 ---
 
-# M
+# Custom Hooks
 
-- f
+- Create a custom hook called `/hooks/useToggle.js` and replace it in our `isFollowing` button
+  ```ts
+  import { useState } from 'react';
+
+  export default function useToggle(initialValue = false) {
+    const [value, setValue] = useState(initialValue);
+    const toggle = () => setValue(prev => !prev);
+    return [value, toggle];
+  }
+  ```
+- Optional, create a "barrel file" `index.js` so that you can import it in a nicer way
+  ```js
+  // hooks/index.js
+  export { default as useToggle } from './useToggle.js';
+  export { default as useWhatever } from './useWhatever.js';
+  ```
+
+  ```js
+  import { useToggle, useInput } from '../hooks/index.js';
+  ```
 
 ---
 transition: slide-left
