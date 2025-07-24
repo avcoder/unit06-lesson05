@@ -39,6 +39,19 @@ transition: slide-left
 
 # Recap
 - Q: Why did I use PrimeReact's `severity` prop in last class? (since I can make it work using different prop names, or values)
+- Q: Back in Unit 2, list some examples of browser events (think mouse and keyboard)
+- Q: in vanilla JS, how were able to listen to a click event in order to run a function called `doSomething`? 
+- see list of [Event Handlers](https://legacy.reactjs.org/docs/events.html)
+   - using React's Event Handlers rather than our own (ex: addEventListener) is good because of: automatic cleanup. (Otherwise if we forget to removeEventListener, there will be a memory leak), improved performance, no DOM interaction via `document.querySelector()`; as React devs, we should avoid interacting with the DOM directly
+- when we "set the mouse trap" we have to pass a reference to the function.  Why?
+  ```js
+  React.createElement(
+    'button',
+    {
+      onClick: doSomething,  // vs. { onClick: doSomething(), }
+    }
+  ); // Q: What if we need to pass in arguments to the function?
+  ```
 
 ---
 transition: slide-left
