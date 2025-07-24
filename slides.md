@@ -120,7 +120,7 @@ What about Textareas, Radio buttons, Checkboxes, Selects, Ranges, Color Pickers?
       </option>
     </select>
   ```
-
+- Challenge: Replace static city names with an array and display it via `.map()`
 
 ---
 layout: image-right
