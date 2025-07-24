@@ -57,6 +57,15 @@ transition: slide-left
 transition: slide-left
 ---
 
+# Exercise: onClick
+
+1. Handle Events via onClick: if a user clicks "Toronto", "Moscow" or "Tokyo" have it console log that city
+2. Lift State up: Make clicked city set the parent's state to that city and display it in an `<h1>` from the parent scope
+
+---
+transition: slide-left
+---
+
 # Data Binding
 Often we want state to bind to a form field
 
