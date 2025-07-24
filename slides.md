@@ -70,8 +70,14 @@ transition: slide-left
 Often we want state to bind to a form field
 
 - create an input box; if we type in the input box what happens?
-- try setting `value="hello world"` in input tag
+- try setting `value="hello world"` in input tag (value is like a 🔒)
    - try typing or deleting the text in the input box - what happens?
+- implement a useState with an initial value of "hi"
+   - make that text appear as the input box's value
+- implement a button that sets text to `Math.random()` when clicked
+   - when you click button, value gets set == this is one-way data binding where JS changes variable, and thus UI reflects that
+- To get 2-way data binding, add an `onChange` on the input to `console.log(e.target.value)`
+   - now make it set state instead - what happens now when you type in the input box?
 
 ---
 layout: image-right
