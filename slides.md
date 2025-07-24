@@ -68,7 +68,7 @@ transition: slide-left
 transition: slide-left
 ---
 
-# Forms and Data Binding
+# Forms and Data Binding (pg.1)
 Often we want state to bind to a form field
 
 - create an input box; if we type in the input box what happens?
@@ -83,6 +83,44 @@ Often we want state to bind to a form field
 - Try removing value from input tag - does it still work?  (Try clicking button)
 - Try removing the initial value in useState, then view the console
 - How does this compare with Vue.js?
+
+---
+transition: slide-left
+---
+
+# Forms and Data Binding (pg.2)
+
+- Exercise: when user clicks Search button, make it run a function that console logs something
+- But can we make it work if the user presses 'Enter' key, instead of clicking the Search button?  What 2 things would you need to do?
+
+---
+transition: slide-left
+---
+
+# Exercise: Other Form Controls
+What about Textareas, Radio buttons, Checkboxes, Selects, Ranges, Color Pickers?
+
+- All form controls basically use `value` or `checked` and respond with `onChange`
+- Try implementing a Select dropdown
+  ```jsx
+    <select
+      value={selectedOption}
+      onChange={event => {
+        setSelectedOption(event.target.value)
+      }}
+    >
+      <option value="toronto">
+        Toronto
+      </option>
+      <option value="moscow">
+        Moscow
+      </option>
+      <option value="tokyo">
+        Tokyo
+      </option>
+    </select>
+  ```
+
 
 ---
 layout: image-right
