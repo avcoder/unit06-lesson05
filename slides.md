@@ -193,12 +193,14 @@ transition: slide-left
 transition: slide-left
 ---
 
-# Exercise
+# Exercise: Putting it altogether
 
 - Create an input box along with a submit button
 - Whenever the user types a name in the box, upon button click, React will add that text to an array
 - Dynamically Output the array as an unordered list 
-- For Fun: In addition to displaying the names, also display their avatar (see https://robohash.org/)
+- Fun Challenge: In addition to displaying the names, also display their avatar (see https://robohash.org/)
+- Challenge #2: Re-use your previous `<FollowPerson>` component instead of the unordered list
+- Challenge #3: Keep state of all the Follow buttons (ex: does it show '+ Follow' or '- Following')
 
 # Homework
 
