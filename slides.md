@@ -97,6 +97,7 @@ transition: slide-left
   ```
 
   ```js
+  // above allows to nicely import it elsewhere 
   import { useToggle, useWhatever } from '../hooks/index.js';
   ```
 
