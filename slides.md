@@ -66,10 +66,12 @@ transition: slide-left
 transition: slide-left
 ---
 
-# Data Binding
+# Forms and Data Binding
 Often we want state to bind to a form field
 
-- Exercise: create an input box; whatever is inputted, will display as an h1 on page
+- create an input box; if we type in the input box what happens?
+- try setting `value="hello world"` in input tag
+   - try typing or deleting the text in the input box - what happens?
 
 ---
 layout: image-right
