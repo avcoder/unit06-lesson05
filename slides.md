@@ -152,6 +152,17 @@ class: text-left
 transition: slide-left
 ---
 
+# Other Tips
+
+- useState - can initialize useState with an array or an object (`useState(['#fff', '#ddd'])`)
+   - when might you want to use an object instead of primitive values?
+- reminder: whenever you change state, you need to provide a brand new array/object, modify that new array, then set that new array into state.
+- state variables should always be immutable (never mutate it)
+
+---
+transition: slide-left
+---
+
 # Custom Hooks
 
 - Create a custom hook called `/hooks/useToggle.js` and replace it in our `isFollowing` button
