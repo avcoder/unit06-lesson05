@@ -44,9 +44,10 @@ transition: slide-left
 transition: slide-left
 ---
 
-# C
+# Data Binding
+Often we want state to bind to a form field
 
-- f
+- Exercise: create an input box; whatever is inputted, will display as an h1 on page
 
 ---
 layout: image-right
@@ -97,7 +98,7 @@ Feel free to create more components inside `<Forecast>` as you see fit.  FYI - i
         <main>
           <TodayWeather
             city={this.state.currentCity}
-            onCoordsChange={this.changeCoords}
+            handleCoordsChange={this.changeCoords}
           />
           <Forecast lat={this.state.lat} lon={this.state.lon} />
         </main>
