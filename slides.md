@@ -95,7 +95,7 @@ transition: slide-left
 # Homework
 
 - Refactor the weather app we did for our first exercise (see https://codepen.io/codevilla/pen/YPyWWpm) into the following components.  Then separate the css into its respective components that you created.
-Feel free to create more components inside `<Forecast>` as you see fit.  FYI - ignore my `this.whatever` code below since I was using class-based React which you won't be using.
+Feel free to create more components inside `<Forecast>` as you see fit.  FYI - ignore my `this.whatever` or `this.state.whatever` code below since I was using class-based React which you won't be using.
   ```jsx
   return (
       <div>
