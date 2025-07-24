@@ -104,9 +104,9 @@ What about Textareas, Radio buttons, Checkboxes, Selects, Ranges, Color Pickers?
 - Try implementing a Select dropdown
   ```jsx
     <select
-      value={selectedOption}
+      value={???}
       onChange={event => {
-        setSelectedOption(event.target.value)
+        ???
       }}
     >
       <option value="toronto">
