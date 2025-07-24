@@ -62,6 +62,8 @@ transition: slide-left
 1. Handle Events via onClick: if a user clicks "Toronto", "Moscow" or "Tokyo" have it console log that city
 2. Lift State up: Make clicked city set the parent's state to that city and display it in an `<h1>` from the parent scope
 
+- What's a [synthetic event](https://legacy.reactjs.org/docs/events.html) in React?
+
 ---
 transition: slide-left
 ---
@@ -70,7 +72,7 @@ transition: slide-left
 Often we want state to bind to a form field
 
 - create an input box; if we type in the input box what happens?
-- try setting `value="hello world"` in input tag (value is like a 🔒 = controlled)
+- try setting `value="hello world"` in input tag (value is like a 🔒 = Controlled vs Uncontrolled)
    - try typing or deleting the text in the input box - what happens?
 - implement a useState with an initial value of "hi"
    - make that text appear as the input box's value
@@ -79,6 +81,7 @@ Often we want state to bind to a form field
 - To get 2-way data binding, add an `onChange` on the input to `console.log(e.target.value)`
    - now make it set state instead - what happens now when you type in the input box?
 - Try removing value from input tag - does it still work?  (Try clicking button)
+- Try removing the initial value in useState, then view the console
 - How does this compare with Vue.js?
 
 ---
