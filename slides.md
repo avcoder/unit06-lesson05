@@ -169,6 +169,19 @@ transition: slide-left
 # Custom Hooks
 Hooks allow us to re-use logic similar to how we can re-use components
 
+- In addition to hooks like `useState` and `useEffect`, we can create our own hooks
+- see [usehooks.com](https://usehooks.com/)
+- Note: we aren't really inventing our own hooks, we're just reusing things like `useState` etc.  
+- Hooks can also bundle multiple React hooks (like `useState` and `useEffect`) into one
+- Hooks gives us code organization by moving state/effect out of the component, it makes it easier to understand what your component does
+- Hooks gives us code organization by moving state/effect out of the component, it's possible to import this into other components
+
+---
+transition: slide-left
+---
+
+# Exercise: Custom hooks
+
 - Create a custom hook called `/hooks/useToggle.js` and replace it in our `isFollowing` button
   ```ts
   import { useState } from 'react';
