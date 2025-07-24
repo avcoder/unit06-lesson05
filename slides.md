@@ -70,7 +70,7 @@ transition: slide-left
 Often we want state to bind to a form field
 
 - create an input box; if we type in the input box what happens?
-- try setting `value="hello world"` in input tag (value is like a 🔒)
+- try setting `value="hello world"` in input tag (value is like a 🔒 = controlled)
    - try typing or deleting the text in the input box - what happens?
 - implement a useState with an initial value of "hi"
    - make that text appear as the input box's value
@@ -78,6 +78,8 @@ Often we want state to bind to a form field
    - when you click button, value gets set == this is one-way data binding where JS changes variable, and thus UI reflects that
 - To get 2-way data binding, add an `onChange` on the input to `console.log(e.target.value)`
    - now make it set state instead - what happens now when you type in the input box?
+- Try removing value from input tag - does it still work?  (Try clicking button)
+- How does this compare with Vue.js?
 
 ---
 layout: image-right
