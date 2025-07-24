@@ -193,6 +193,13 @@ transition: slide-left
 transition: slide-left
 ---
 
+# Exercise
+
+- Create an input box along with a submit button
+- Whenever the user types a name in the box, upon button click, React will add that text to an array
+- Dynamically Output the array as an unordered list 
+- For Fun: In addition to displaying the names, also display their avatar (see https://robohash.org/)
+
 # Homework
 
 - Refactor the weather app we did for our first exercise (see https://codepen.io/codevilla/pen/YPyWWpm) into the following components.  Then separate the css into its respective components that you created.
