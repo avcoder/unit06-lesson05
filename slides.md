@@ -52,7 +52,7 @@ Often we want state to bind to a form field
 ---
 layout: image-right
 transition: slide-left
-image: /assets/cory.png
+image: /assets/holmes.png
 backgroundSize: 420px 500px
 class: text-left
 ---
@@ -65,6 +65,7 @@ class: text-left
 - 📋 [Formik](https://formik.org/)
 - 🥞 [React Hook Form](https://react-hook-form.com/)
 - 🤖 [Rogue AI deletes DB](https://x.com/jasonlk/status/1946069562723897802)
+- 🎟️ [Form Validation](https://x.com/BHolmesDev/status/1746911677440774274)
 
 
 <br>
