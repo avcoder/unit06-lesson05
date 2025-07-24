@@ -63,7 +63,8 @@ class: text-left
 
 - 🪝 [usehooks.com](https://usehooks.com/)
 - 📋 [Formik](https://formik.org/)
-- [React Hook Form](https://react-hook-form.com/)
+- 🥞 [React Hook Form](https://react-hook-form.com/)
+- 🤖 [Rogue AI deletes DB](https://x.com/jasonlk/status/1946069562723897802)
 
 
 <br>
