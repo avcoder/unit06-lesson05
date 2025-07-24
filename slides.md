@@ -139,6 +139,8 @@ class: text-left
 - 🥞 [React Hook Form](https://react-hook-form.com/)
 - 🤖 [Rogue AI deletes DB](https://x.com/jasonlk/status/1946069562723897802)
 - 🎟️ [Form Validation](https://x.com/BHolmesDev/status/1746911677440774274)
+- 🛠️ [Redux Toolkit](https://redux-toolkit.js.org/)
+- ❔ [RTK Query](https://redux-toolkit.js.org/rtk-query/overview)
 
 
 <br>
@@ -156,7 +158,7 @@ transition: slide-left
 
 - useState - can initialize useState with an array or an object (`useState(['#fff', '#ddd'])`)
    - when might you want to use an object instead of primitive values?
-- reminder: whenever you change state, you need to provide a brand new array/object, modify that new array, then set that new array into state.
+- reminder: whenever you change state, you need to provide a brand new array/object, modify that new array, then set that new array into state.  That's because React uses reference equality (memory address) to check if something changed.
 - state variables should always be immutable (never mutate it)
 
 ---
