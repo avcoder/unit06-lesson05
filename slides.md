@@ -217,6 +217,10 @@ transition: slide-left
 - Challenge #2: Re-use your previous `<FollowPerson>` component instead of the unordered list
 - Challenge #3: Keep state of all the Follow buttons (ex: does it show '+ Follow' or '- Following')
 
+---
+transition: slide-left
+---
+
 # Homework
 
 - Refactor the weather app we did for our first exercise (see https://codepen.io/codevilla/pen/YPyWWpm) into the following components.  Then separate the css into its respective components that you created.
